@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="thankyou-section">
+        <div class="thankyou-container">
+            <h2>Thank You for Your Booking!</h2>
+            <p>Your booking has been successfully submitted. Our team will contact you soon to finalize the details and arrange for the delivery.</p>
+            <p>We look forward to serving you and hope you enjoy your new car!</p>
+
+            <div class="thankyou-buttons">
+                <a href="index.html" class="thankyou-btn">Return to Home</a>
+                <a href="contact.html" class="thankyou-btn">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #8b8787;
+            margin: 0;
+            padding: 0;
+        }
+
+        .thankyou-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .thankyou-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .thankyou-buttons {
+            margin-top: 30px;
+        }
+
+        .thankyou-btn {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .thankyou-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</body>
+</html>
+
+<script>
+
+document.getElementById('booking-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form from actually submitting
+
+    // Simulate storing data or processing the booking
+    console.log('Booking Data:', {
+        fullName, email, contact, idCard, country, deliveryDate, carModel, paymentMethod, additionalNotes
+    });
+
+    // Redirect to thank you page
+    window.location.href = 'thankyou.html'; // Redirect after form submission
+});
+
+</script>
