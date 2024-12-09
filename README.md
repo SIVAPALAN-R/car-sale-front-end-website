@@ -87,17 +87,20 @@ Siva-Regunath-Cars/
 [Visit the live website here](#) *(https://sivapalan-r.github.io/car-sale-front-end-website/)*
 
 ## Image of the Web site
-
-![Home](https://github.com/user-attachments/assets/241d0caf-8e62-4a97-9ae9-59491ea9f613)
-
-
-![collection1](https://github.com/user-attachments/assets/3230c5d2-d9de-4faa-af11-a4e50a99d15e)
+![Home](https://github.com/user-attachments/assets/78b13e75-e750-40ed-a088-a83e627a6005)
 
 
-![Booking Form](https://github.com/user-attachments/assets/80c3e22d-3f24-4aaa-a2f8-62c0c153fb3b)
+
+![collection1](https://github.com/user-attachments/assets/abb8b743-4ef4-4410-87e2-a0b02446dd61)
 
 
-![Confirm](https://github.com/user-attachments/assets/dc22b409-cd6e-4869-9afb-5fd722f2067d)
+
+![Booking Form](https://github.com/user-attachments/assets/1363c216-7965-4d84-ba0c-f58c78a4e5f0)
+
+
+
+![Confirm](https://github.com/user-attachments/assets/ea22d625-714f-4333-bddb-3bc91f8ff712)
+
 
 
 ---
